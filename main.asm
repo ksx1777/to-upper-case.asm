@@ -3,7 +3,7 @@ section .data:
 	len:    equ $-msg
 
 section .bss
-	text:   resb 64
+	text:   resb 64 ; defina a quantidade máxima de bytes que serão lidos
 
 section .text:
 global _start
@@ -13,7 +13,7 @@ _start:
     mov edx, len
     call print
     mov ecx, text
-    mov edx, 64
+    mov edx, 64 ; defina a quantidade máxima de bytes que serão lidos
     call read
     xor esi, esi
 
