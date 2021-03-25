@@ -4,6 +4,7 @@ Uma rotina de programação, para transformar uma cadeia de caracteres minúscul
 Para compilar:
 
 chmod +x comp.sh
+
 ./comp.sh
 
 # instalar compilador Assembly nasm:
